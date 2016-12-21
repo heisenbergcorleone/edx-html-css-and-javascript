@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML's Input Control</title>
+</head>
+<body>
+
+<div><p>
+	The following table is an example of a <b><i>textarea</i></b> in an HTML document.
+</p>
+<textarea rows="3" cols= "30" autofocus>
+We live in a mobile-first and cloud-first world. Computing is ubiquitous, and experiences span devices and exhibit ambient intelligence.
+</textarea>
+</div>
+<br />
+<div>
+<p>The following list shows a dropt down list in a HTML doc using the <b><i>select element</i></b></p>
+<select>
+    <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+    <option value="DAT204x">Introduction to R Programming</option>
+    <option value="CLD203x">Office 365: Managing Identities and Services</option>
+    <option value="DEV208x">Introduction to jQuery</option>
+</select>
+
+<p>The following list shows the use of the <b><i>optgroup</i></b> element of the select element which shows the grouping of the drop down list</p>
+
+<select>
+    <optgroup label="Data Platform">
+        <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
+        <option value="DAT204x">Introduction to R Programming</option>
+    </optgroup>
+    <optgroup label="Cloud">
+        <option value="CLD203x">Office 365: Managing Identities and Services</option>
+    </optgroup>
+    <optgroup label="Development">
+        <option value="DEV208x">Introduction to jQuery</option>
+    </optgroup>
+</select>
+
+<p>The following form has the input option for username and email address and the type element stores the type of the data entered. <br />Type element can be changed to button which creates a button corresponding the text, and it may be password which hides the data when entered.<br />Type element has many more features!</p>
+<form>
+Username: <input type="text" name="username" />
+Email Address: <input type="email" name="emailaddress" />
+</form>
+<p>The following <b><i>button</i></b> is associated with the logo of Microsoft! </p>
+
+<button type="button">
+    <img src="images/microsoft.png" alt="Microsoft" />
+    <br />
+    Apply to Microsoft!
+</button>
+</div>
+</body>
+</html>
