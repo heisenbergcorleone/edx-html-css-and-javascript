@@ -1,0 +1,38 @@
+section, header, footer {
+    margin: 20px;
+    border: 1px black solid;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.grayBackground {
+    background-color: #F0F2F1;
+} /*dotclassname finds that particular class on 
+the whole html document and apply the property 
+assigned to it*/
+
+.tanBackground {
+    background-color: #D4C0A7;
+} 
+
+.purpleBackground {
+    background-color: #B2A4A1;
+}
+
+header.purpleBackground {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+} /*further the tagdotfilename looks for the 
+particular tag and applies the property to the
+area of the class attached to the tag*/
+
+header.purpleBackground > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} /*now this css property finds the tag header which is 
+attached to the purpleBackground class and then finds the child element
+h1 i.e attachhed to it and applies the property there.*/
+
+section.grayBackground {
+    color: #938373;
+}

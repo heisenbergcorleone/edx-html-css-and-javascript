@@ -1,0 +1,16 @@
+section p {
+	font-family: monospace;
+}
+
+section > p {
+	font-weight: bold;
+}
+
+section > article > aside > p {
+	color: #FF0000;
+} /*changed the bold property to color in this 
+cause it looked similar to 'First Paragraph'*/
+
+section > article > p {
+	font-style: italic;
+}
