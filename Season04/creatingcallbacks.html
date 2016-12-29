@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+	<title>Creating Javascript Callbacks</title>
+	<script src="testingwithmyfile.js"></script>
+</head>
+<body>
+        <form>
+            <fieldset>
+                <legend>Text Value</legend>
+                Position: <input type="text" name="position" value="" />
+            </fieldset>
+            
+            <fieldset>
+                <legend>Radio Value</legend>
+                <em>Department</em><br />
+                FIELD: <input type="radio" name="department" value="Field" /><br />
+                ITOPS:  <input type="radio" name="department" value="IT Operations" /><br />
+                SALES: <input type="radio" name="department" value="Sales" /><br />
+                MGMT: <input type="radio" name="department" value="Management" />
+            </fieldset>
+            
+            <button type="button" onclick="storingTextValue()">Save Text</button>
+            
+            <button type="button" onclick="storingRadioValue()">Save Radio</button>
+        </form>
+    </body>
+</html>
