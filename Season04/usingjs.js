@@ -1,5 +1,6 @@
 function startlogic() {
 	var newHtml = '<em>New Header</em>';
-	document.getElementById('headerItem').innerHTML= newHtml;
+	document.getElementById('headerItem').innerHTML= 
+	newHtml;
 }
 startlogic();
