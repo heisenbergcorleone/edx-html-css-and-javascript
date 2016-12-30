@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Adding Js to HTML Page</title>
+</head>
+<body>
+<header id="headeritem">
+	Old Header
+</header>
+<section>
+	<button onclick="clickHandler()">Click Here</button>
+</section>
+<script type="text/javascript">
+function startlogic() {
+	var newHTML = '<em>New Header</em>';
+	document.getElementById('headeritem').innerHTML = newHTML;
+}
+startlogic();
+
+function clickHandler() {
+	alert('You clicked me');
+}
+</script>
+</body>
+</html>

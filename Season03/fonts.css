@@ -1,0 +1,9 @@
+body {
+	font-family: 'Trebuchet MS', 
+	'Lucida Sans Unicode', 
+	'Lucida Grande', 'Lucida Sans', 
+	Arial, sans-serif;
+}
+/*the font family gives a variety of fonts to the broswer
+the browser picks any one font from left to right whichever it has
+and applies it to the particular text*/

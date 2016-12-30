@@ -1,0 +1,13 @@
+section > p {
+	color:red !important;
+} 
+
+section > p {
+	color:blue;
+}
+
+/*the css inheritance works along the accending order
+of the properties as prescribed in the css sheet,
+but that isnt a case when the !important keyword is
+used, which overrides everthing in the sheet and makes
+the property adjacent to it the final verdict.*/

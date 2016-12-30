@@ -1,0 +1,23 @@
+p {
+	font-style: italic;
+}
+article  p {
+	font-size: x-small;
+}
+article > p {
+	color: red;
+}
+article > section > p {
+	color: blue;
+}
+
+/* 'article > p' means the child element p inside 
+the article element, that doesnt mean just the first
+child but all children inside it.
+Whereas 'article p' means all the children and grandchildren 
+elements that can be found within the article tag must be 
+applied to the property defined.*/
+
+article > section > p:last-child {
+	font-weight: bold;
+}
